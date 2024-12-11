@@ -30,7 +30,7 @@ if (input === null) {
 
         const hasDuplicates = digit1 === digit2 || digit1 === digit3 || digit2 === digit3;
 
-        alert(`Number: ${trimmedInput}`);
+        alert(`Number: ${input.trim()}`); 
         alert(`All digits are the same: ${allSame}`);
         alert(`Has duplicate digits: ${hasDuplicates}`);
     } else {
