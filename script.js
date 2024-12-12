@@ -15,16 +15,13 @@ if (input === null) {
 
     trimmedInput = String(Number(trimmedInput)); 
 
-    if (trimmedInput === '') {
-        trimmedInput = '0'; 
-    }
 
     if (!Number.isInteger(Number(trimmedInput))) {
         alert(`Error: '${input}' is not a valid integer.`);
     } else if (trimmedInput.length === 3) {
-        const digit1 = Number(trimmedInput[0]);
-        const digit2 = Number(trimmedInput[1]);
-        const digit3 = Number(trimmedInput[2]);
+        const digit1 = (trimmedInput[0]);
+        const digit2 = (trimmedInput[1]);
+        const digit3 = (trimmedInput[2]);
 
         const allSame = digit1 === digit2 && digit2 === digit3;
 
